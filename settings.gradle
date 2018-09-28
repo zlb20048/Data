@@ -1,0 +1,5 @@
+include ':DataCollection'
+include ':CoreSdk'
+project(":CoreSdk").projectDir = file("../CoreSdk/app")
+project(":DataCollection").projectDir = file("./datacollection")
+
